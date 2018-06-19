@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="177px" height="162px" viewBox="0 0 177 162" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Utah_Utes_-_U_logo (1)</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="85.5 153.8 123.5 153.8 155.3 122.3 155.3 46.3 170.1 46.3 170.1 1.42108547e-14 93.1 1.42108547e-14 93.1 46.3 108.7 46.3 108.7 107.3 62.2 107.3 62.2 46.3 77.8 46.3 77.8 1.42108547e-14 0.8 1.42108547e-14 0.8 46.3 16.4 46.3 16.4 122.3 48.2 153.8 86.2 153.8"></polygon>
+        <filter x="-4.1%" y="-3.3%" width="108.3%" height="109.1%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Utah_Utes_-_U_logo-(1)" transform="translate(3.000000, 2.000000)" fill-rule="nonzero">
+            <g id="Shape">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#CC0000" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>

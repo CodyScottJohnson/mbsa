@@ -1,17 +1,19 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import {AngularFireAuth} from 'angularfire2/auth';
 import {FirebaseUISignInSuccessWithAuthResult, FirebaseUISignInFailure} from 'firebaseui-angular';
 
+
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.less']
-  
+  selector: 'app-login',
+  templateUrl: './login.component.html',
+  styleUrls: ['./login.component.less']
 })
-export class AppComponent {
+export class LoginComponent implements OnInit {
+
   constructor(private afAuth: AngularFireAuth) {
   }
-
+  ngOnInit() {
+  }
   title = 'app';
   logout() {
     this.afAuth.auth.signOut();
@@ -24,4 +26,6 @@ export class AppComponent {
   errorCallback(data: FirebaseUISignInFailure) {
     console.warn('errorCallback', data);
   }
+
+
 }

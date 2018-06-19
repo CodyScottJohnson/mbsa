@@ -28,8 +28,13 @@
             ],
             "styles": [
               "src/styles.less",
-              "assets/style/theme.scss"
+              "src/assets/style/theme.scss"
             ],
+            "stylePreprocessorOptions": {
+              "includePaths": [
+                "src/assets/style/less"
+              ]
+            },
             "scripts": []
           },
           "configurations": {
